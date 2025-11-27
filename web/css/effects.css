@@ -1,0 +1,23 @@
+.tremble {
+    animation: tremble 0.3s infinite;
+}
+
+@keyframes tremble {
+    0% { transform: translate(0); }
+    25% { transform: translate(2px, 0); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(-2px, 0); }
+    100% { transform: translate(0); }
+}
+
+.b {
+    font-weight: bold;
+}
+
+.ny {
+    color: purple;
+}
+
+.el {
+    color: crimson;
+}

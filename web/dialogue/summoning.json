@@ -1,0 +1,39 @@
+{
+    "lines": [
+        {
+            "character":"3 Evil Wizards",
+            "text":"<p class=\"tremble\">*Ominous chanting...*</p>",
+            "portrait":""
+        },
+        {
+            "character":"3 Evil Wizards",
+            "text":"<p class=\"tremble\">By the power off my command I summon you into the world! Rise my child!</p>",
+            "portrait":"",
+            "screen_effect":"spawn_nyarly"
+        },
+        {
+            "character":"3 Evil Wizards",
+            "text":"Welcome to the world My child! <p class=\"b tremble\">*Evil laugh*</p>",
+            "portrait":"",
+            "screen_effect":"thunder"
+        },
+        {
+            "character":"",
+            "text":"You are promptly thrown out of the temple you were summoned into",
+            "portrait":"",
+            "no_portrait":true,
+            "screen_effect":"despawn_wiz"
+        },
+        {
+            "character":"<p class=\"ny\">???</p>",
+            "text":"<p class=\"b\">*OWWWW*</p> That hurt!",
+            "portrait":""
+        },
+        {
+            "character":"",
+            "text": "You are not used to being able to feel pain.",
+            "portrait":"",
+            "no_portrait":true
+        }
+    ]
+}

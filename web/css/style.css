@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas canvas {
+    border: 3px solid #f5d66d;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(245, 214, 109, 0.4);
+    background-color: #1b1b26;
+}
+
+#dialoguebox {
+    width: calc(1000px - 1.5rem - 1.25rem);
+    min-height: 180px;
+    border: 3px solid #f5d66d;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #1b1b26 0%, #10101a 100%);
+    color: #f8f1c7;
+    box-shadow: 0 0 20px rgba(245, 214, 109, 0.4);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-family: "Press Start 2P", "VT323", monospace;
+}
+
+#charactercontainer {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#charactername {
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border: 2px solid #f5d66d;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#characterimage {
+    border: 2px solid #f5d66d;
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+#dialoguecontainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#dialoguetext {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+#choices {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.choice {
+    flex: none;
+    padding: 0.5rem 1.25rem;
+    border: 2px solid #f5d66d;
+    border-radius: 10px;
+    background-color: #2a2a3b;
+    color: #f8f1c7;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.choice:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
