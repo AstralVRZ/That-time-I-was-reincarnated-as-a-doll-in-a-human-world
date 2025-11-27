@@ -27,6 +27,13 @@ function setup() {
   canvas.parent("canvas");
   imageMode(CENTER);
   angleMode(RADIANS);
+
+  let context = canvas.elt.getContext('2d');
+  context.mozImageSmoothingEnabled = false;
+  context.webkitImageSmoothingEnabled = false;
+  context.msImageSmoothingEnabled = false;
+  context.imageSmoothingEnabled = false;
+
 }
 
 function draw() {
@@ -51,7 +58,6 @@ function drawSummoningScene(effect) {
     rotationAngle += rotationSpeed;
     circleSize = min(maxCircleSize, circleSize + growthRate);
 
-
     push();
     rotate(rotationAngle);
     const scaledSize = map(circleSize, 0, maxCircleSize, 0, circleImg.width);
@@ -60,7 +66,7 @@ function drawSummoningScene(effect) {
   }
 
   if (nyarly === true) {
-    const nyarlySize = 64;
+    const nyarlySize = 128;
     image(nyalryImg, 0, 0, nyarlySize, nyarlySize);
   }
   if (wizDespawned === false) {
@@ -88,7 +94,6 @@ async function fetchDialogue(file) {
       return null;
     });
 }
-
 
 let lineIndex = 0;
 
