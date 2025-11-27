@@ -1,14 +1,114 @@
 {
     "lines": [
         {
-            "character": "<p class=\"el\">???</p>",
+            "character": "<p class=\"el\">? ? ? ? ?</p>",
             "text": "Wow that looked painfull! Are you okay?",
             "portrait": "elysiumportrait.png"
         },
         {
-            "character": "<p class=\"ny\">???</p>",
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
             "text": "<p class=\"tremble b\">*Groans*</p>",
             "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">? ? ? ? ?</p>",
+            "text": "Here, let me help you up.",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "<p class=\"tremble b\">*Ooughhhh!!*</p>",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">? ? ? ? ?</p>",
+            "text": "I'm sorry, I didn't mean to hurt you.",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">? ? ? ? ?</p>",
+            "text": "But you are up now! That's what matters.",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "<p class=\"tremble b\">*Pant...*</p> Thank you...",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">? ? ? ? ?</p>",
+            "text": "No problem! Are you going to be okay?",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "<p class=\"b\">*Nod*</p>I-I'll probably be fine, do you happen to know where I am, Miss...?",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">Elysium</p>",
+            "text": "I'm Elysium! Sorry for the rough introduction. What's your name?",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "I... I don't know...",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">Elysium</p>",
+            "text": "Yeah.. you seem quite dazed. Do you remember anything at all?",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "<p class=\"b tremble\">*Shakes head*</p>",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "Inner monologue",
+            "text": "You try to recall any memories, but your mind is blank. You truly can't remember anything about yourself, or how you got here.",
+            "portrait": "",
+            "no_portrait":true
+        },
+        {
+            "character": "<p class=\"el\">Elysium</p>",
+            "text": "Hmm... that's worrying...",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"el\">Elysium</p>",
+            "text": "Let's first get you somewhere safer. I can take you to my home, it's not far from here.",
+            "portrait": "elysiumportrait.png"
+        },
+        {
+            "character": "<p class=\"ny\">? ? ? ? ?</p>",
+            "text": "Y-yes... that would be good...",
+            "portrait": "nyarlyportrait.png"
+        },
+        {
+            "character": "Inner monologue",
+            "text": "It's not like you have any other place to go...",
+            "portrait": "",
+            "no_portrait":true
+        },
+        {
+            "character": "Inner monologue",
+            "text": "You stand up, still a bit wobbly from the fall, your body feeling strange and unfamiliar.",
+            "portrait": "",
+            "no_portrait":true
+        },
+        {
+            "character": "Inner monologue",
+            "text": "You follow Elysium as she starts walking towards her home, while you walk beside her, your body stiff and awkward.",
+            "portrait": "",
+            "no_portrait":true
+        },
+        {
+            "character": "Inner monologue",
+            "text": "As you walk, you try to to clear your mind, hoping that maybe some memories will come back to you.",
+            "portrait": "",
+            "no_portrait":true
         }
     ]
 }

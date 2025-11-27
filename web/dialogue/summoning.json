@@ -18,19 +18,19 @@
             "screen_effect":"thunder"
         },
         {
-            "character":"",
+            "character":"Inner monologue",
             "text":"You are promptly thrown out of the temple you were summoned into",
             "portrait": "nyarlyportrait.png",
             "no_portrait":true,
             "screen_effect":"despawn_wiz"
         },
         {
-            "character":"<p class=\"ny\">???</p>",
+            "character":"<p class=\"ny\">? ? ? ? ?</p>",
             "text":"<p class=\"b\">*CRASH*</p> That hurt!",
             "portrait": "nyarlyportrait.png"
         },
         {
-            "character":"",
+            "character":"Inner monologue",
             "text": "You are not used to being able to feel pain.",
             "portrait": "",
             "no_portrait":true
