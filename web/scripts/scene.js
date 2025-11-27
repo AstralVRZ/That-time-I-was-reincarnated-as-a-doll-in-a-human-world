@@ -7,7 +7,7 @@ const rotationSpeed = 0.02;
 
 // Sprites
 let circleImg;
-let wizardImg;
+let wizardImg = [];
 let nyalryImg;
 
 // Dialogue tracker
@@ -18,8 +18,8 @@ let currentDialogue = 0;
 
 function preload() {
   circleImg = loadImage("./art/summoning/pentagram-concept.png");
-  wizardImg = loadImage("./art/missing_texture.png");
-  nyalryImg = loadImage("./art/missing_texture.png");
+  wizardImg = [loadImage("./art/evilWizard1.png"), loadImage("./art/evilWizard2.png"), loadImage("./art/evilWizard3.png")];
+  nyalryImg = loadImage("./art/Nyarly.png");
 }
 
 function setup() {
@@ -60,18 +60,18 @@ function drawSummoningScene(effect) {
   }
 
   if (nyarly === true) {
-    const nyarlySize = 64;
+    const nyarlySize = 128;
     image(nyalryImg, 0, 0, nyarlySize, nyarlySize);
   }
   if (wizDespawned === false) {
     const wizardRadius = circleSize / 2 + 90;
-    const wizardSize = 64;
+    const wizardSize = 128;
     const baseAngle = -HALF_PI;
     for (let i = 0; i < 3; i++) {
       const angle = baseAngle + (TWO_PI / 3) * i;
       const x = cos(angle) * wizardRadius;
       const y = sin(angle) * wizardRadius;
-      image(wizardImg, x, y, wizardSize, wizardSize);
+      image(wizardImg[i], x, y, wizardSize, wizardSize);
     }
   }
 }
