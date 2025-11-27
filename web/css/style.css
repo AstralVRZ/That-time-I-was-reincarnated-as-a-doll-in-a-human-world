@@ -39,7 +39,6 @@ p{
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    font-family: "Press Start 2P", "VT323", monospace;
 }
 
 #charactercontainer {
@@ -54,7 +53,7 @@ p{
 
 #charactername {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.25rem 0.5rem;
     border: 2px solid #f5d66d;
     border-radius: 8px;
@@ -78,7 +77,7 @@ p{
 }
 
 #dialoguetext {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.4;
 }
 
@@ -96,9 +95,22 @@ p{
     color: #f8f1c7;
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
+    font-size: 1.25rem;
 }
 
 .choice:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
