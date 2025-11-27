@@ -18,8 +18,8 @@ let currentDialogue = 0;
 
 function preload() {
   circleImg = loadImage("./art/summoning/pentagram-concept.png");
-  wizardImg = [loadImage("./art/evilWizard1.png"), loadImage("./art/evilWizard2.png"), loadImage("./art/evilWizard3.png")];
-  nyalryImg = loadImage("./art/Nyarly.png");
+  wizardImg = [loadImage("./art/evilwizard1.png"), loadImage("./art/evilwizard2.png"), loadImage("./art/evilwizard3.png")];
+  nyalryImg = loadImage("./art/nyarly.png");
 }
 
 function setup() {

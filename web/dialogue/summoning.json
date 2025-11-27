@@ -20,14 +20,14 @@
         {
             "character":"",
             "text":"You are promptly thrown out of the temple you were summoned into",
-            "portrait": "nyarlyPortrait.png",
+            "portrait": "nyarlyportrait.png",
             "no_portrait":true,
             "screen_effect":"despawn_wiz"
         },
         {
             "character":"<p class=\"ny\">???</p>",
             "text":"<p class=\"b\">*CRASH*</p> That hurt!",
-            "portrait": "nyarlyPortrait.png"
+            "portrait": "nyarlyportrait.png"
         },
         {
             "character":"",
