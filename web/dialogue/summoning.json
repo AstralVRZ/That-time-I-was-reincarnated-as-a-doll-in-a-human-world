@@ -20,19 +20,19 @@
         {
             "character":"",
             "text":"You are promptly thrown out of the temple you were summoned into",
-            "portrait":"",
+            "portrait": "nyarlyPortrait.png",
             "no_portrait":true,
             "screen_effect":"despawn_wiz"
         },
         {
             "character":"<p class=\"ny\">???</p>",
             "text":"<p class=\"b\">*CRASH*</p> That hurt!",
-            "portrait":""
+            "portrait": "nyarlyPortrait.png"
         },
         {
             "character":"",
             "text": "You are not used to being able to feel pain.",
-            "portrait":"",
+            "portrait": "",
             "no_portrait":true
         }
     ]

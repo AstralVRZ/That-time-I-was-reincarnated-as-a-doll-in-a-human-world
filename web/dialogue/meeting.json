@@ -3,12 +3,12 @@
         {
             "character": "<p class=\"el\">???</p>",
             "text": "Wow that looked painfull! Are you okay?",
-            "portrait":""
+            "portrait": "elysiumPortrait.png"
         },
         {
             "character": "<p class=\"ny\">???</p>",
             "text": "<p class=\"tremble b\">*Groans*</p>",
-            "portrait": ""
+            "portrait": "nyarlyPortrait.png"
         }
     ]
 }

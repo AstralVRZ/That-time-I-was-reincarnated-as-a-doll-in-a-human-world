@@ -60,7 +60,7 @@ function drawSummoningScene(effect) {
   }
 
   if (nyarly === true) {
-    const nyarlySize = 128;
+    const nyarlySize = 64;
     image(nyalryImg, 0, 0, nyarlySize, nyarlySize);
   }
   if (wizDespawned === false) {
