@@ -14,6 +14,11 @@ let nyalryImg;
 const dialogueArray = ["summoning.json", "meeting.json"];
 let currentDialogue = 0;
 
+// Autoplay functionality
+const urlParams = new URLSearchParams(window.location.search);
+const autoplay = urlParams.get('autoplay') !== null;
+let autoplayTimeout = null;
+
 
 
 function preload() {
@@ -187,6 +192,16 @@ async function progressDialogue() {
       currentDialogue = 0
       resetStates();
     }
+  }
+
+  // Schedule next dialogue line if autoplay is enabled
+  if (autoplay) {
+    if (autoplayTimeout) {
+      clearTimeout(autoplayTimeout);
+    }
+    autoplayTimeout = setTimeout(() => {
+      progressDialogue();
+    }, 5000);
   }
 }
 
