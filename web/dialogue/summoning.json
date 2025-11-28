@@ -14,8 +14,7 @@
         {
             "character":"3 Evil Wizards",
             "text":"Welcome to the world My child! <p class=\"b tremble\">*Evil laugh*</p>",
-            "portrait":"",
-            "screen_effect":"thunder"
+            "portrait":""
         },
         {
             "character":"Inner monologue",
@@ -27,7 +26,8 @@
         {
             "character":"<p class=\"ny\">? ? ? ? ?</p>",
             "text":"<p class=\"b\">*CRASH*</p> That hurt!",
-            "portrait": "nyarlyportrait.png"
+            "portrait": "nyarlyportrait.png",
+            "screen_effect":"hit_ground"
         },
         {
             "character":"Inner monologue",

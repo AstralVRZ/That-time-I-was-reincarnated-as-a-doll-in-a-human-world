@@ -8,7 +8,8 @@
         {
             "character": "<p class=\"ny\">? ? ? ? ?</p>",
             "text": "<p class=\"tremble b\">*Groans*</p>",
-            "portrait": "nyarlyportrait.png"
+            "portrait": "nyarlyportrait.png",
+            "screen_effect": "help_up"
         },
         {
             "character": "<p class=\"el\">? ? ? ? ?</p>",
@@ -18,7 +19,8 @@
         {
             "character": "<p class=\"ny\">? ? ? ? ?</p>",
             "text": "<p class=\"tremble b\">*Ooughhhh!!*</p>",
-            "portrait": "nyarlyportrait.png"
+            "portrait": "nyarlyportrait.png",
+            "screen_effect": "stand_up"
         },
         {
             "character": "<p class=\"el\">? ? ? ? ?</p>",
@@ -94,7 +96,7 @@
         },
         {
             "character": "Inner monologue",
-            "text": "You stand up, still a bit wobbly from the fall, your body feeling strange and unfamiliar.",
+            "text": "Still a bit wobbly from the fall, your body feeling strange and unfamiliar.",
             "portrait": "",
             "no_portrait":true
         },
@@ -102,7 +104,8 @@
             "character": "Inner monologue",
             "text": "You follow Elysium as she starts walking towards her home, while you walk beside her, your body stiff and awkward.",
             "portrait": "",
-            "no_portrait":true
+            "no_portrait":true,
+            "screen_effect": "walk_away"
         },
         {
             "character": "Inner monologue",
