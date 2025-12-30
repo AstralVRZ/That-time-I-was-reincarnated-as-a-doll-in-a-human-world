@@ -90,19 +90,19 @@
         },
         {
             "character": "Inner monologue",
-            "text": "It's not like you have any other place to go...",
+            "text": "It's not like you have any other place to go... You don't even know here you are or where you are from...",
             "portrait": "",
             "no_portrait":true
         },
         {
             "character": "Inner monologue",
-            "text": "Still a bit wobbly from the fall, your body feeling strange and unfamiliar.",
+            "text": "Still a bit wobbly from the fall, your body feeling strange and unfamiliar, you follow Elysium as she starts walking towards her home.",
             "portrait": "",
             "no_portrait":true
         },
         {
             "character": "Inner monologue",
-            "text": "You follow Elysium as she starts walking towards her home, while you walk beside her, your body stiff and awkward.",
+            "text": "You walk beside her, your body stiff and awkward.",
             "portrait": "",
             "no_portrait":true,
             "screen_effect": "walk_away"
